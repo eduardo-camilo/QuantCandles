@@ -1,0 +1,2 @@
+# QuantCandles
+R Package QuantCandles
