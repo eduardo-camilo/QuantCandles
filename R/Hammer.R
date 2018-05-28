@@ -1,11 +1,11 @@
-Hammer <- function(symbol){ #símbolo, dias,...
+Hammer <- function(symbol){ #Código do Instrumento ...
   library(quantmod)
   library(zoo)
   library(xts)
   days = 5
   # Carrega dados de um dia
-  ResultStock <- base::na.omit(prices(symbol))
-  Stock <- base::data.frame(zoo::coredata(ResultStock))
+  ResultStock <- na.omit(prices(symbol))
+  Stock <- data.frame(zoo::coredata(ResultStock))
   #Adicionando a sombra superior e inferior
 
   #Criando o vetor nulo do tamanho do número de linhas
