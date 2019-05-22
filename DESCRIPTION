@@ -5,11 +5,10 @@ Version: 0.1.0
 Author: Eduardo Camilo-da-Silva e Leonardo Camilo-da-Silva
 Maintainer: Eduardo Camilo-da-Silva <ecamilo@mac.com>
 Description: 
-The package offers the following functions:
-- price(symbol): returns the 4 daily prices needed for define candlesticks ("open","high","low","close").
-- hammer(symbol): returns a xts object with 8 columns ("open","high","low","close","isHammer","isInv_Hammer","isBlack","isWhite").
-
-The next versions will include more patterns.
+    The package offers the following functions:
+    - price(symbol): returns the 4 daily prices needed for define candlesticks ("open","high","low","close").
+    - hammer(symbol): returns a xts object with 8 columns ("open","high","low","close","isHammer","isInv_Hammer","isBlack","isWhite").
+    The next versions will include more patterns.
 
 License: Free
 Encoding: UTF-8
