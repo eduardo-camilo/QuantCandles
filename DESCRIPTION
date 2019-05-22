@@ -4,8 +4,13 @@ Title: For a specific stock (import by Quantmod), QuantCandles indicates the day
 Version: 0.1.0
 Author: Eduardo Camilo-da-Silva e Leonardo Camilo-da-Silva
 Maintainer: Eduardo Camilo-da-Silva <ecamilo@mac.com>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: 
+The package offers the following functions:
+- price(symbol): returns the 4 daily prices needed for define candlesticks (high, low, open and close).
+- hammer(symbol): returns a xts object with 8 columns: (high, low, open, close, hammer, inverted hammer, black and white)
+
+The next versions will include more patterns.
+
 License: Free
 Encoding: UTF-8
 LazyData: true
