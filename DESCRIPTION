@@ -1,13 +1,13 @@
 Package: QuantCandles
 Type: Package
-Title: For a specific stock (import by Quantmod), QuantCandles indicates the days where occured the chosen candlesticks patterns
+Title: For a specific stock (import by quantmod), QuantCandles indicates the days where occured the chosen candlesticks patterns
 Version: 0.1.0
 Author: Eduardo Camilo-da-Silva e Leonardo Camilo-da-Silva
 Maintainer: Eduardo Camilo-da-Silva <ecamilo@mac.com>
 Description: 
 The package offers the following functions:
-- price(symbol): returns the 4 daily prices needed for define candlesticks (high, low, open and close).
-- hammer(symbol): returns a xts object with 8 columns: (high, low, open, close, hammer, inverted hammer, black and white)
+- price(symbol): returns the 4 daily prices needed for define candlesticks ("open","high","low","close").
+- hammer(symbol): returns a xts object with 8 columns ("open","high","low","close","isHammer","isInv_Hammer","isBlack","isWhite").
 
 The next versions will include more patterns.
 
