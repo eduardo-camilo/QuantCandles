@@ -1,11 +1,11 @@
 Package: QuantCandles
 Type: Package
-Title: What the Package Does (Title Case)
+Title: For a specific stock (import by Quantmod), QuantCandles indicates the days where occured the chosen candlesticks patterns
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Author: Eduardo Camilo-da-Silva e Leonardo Camilo-da-Silva
+Maintainer: Eduardo Camilo-da-Silva <ecamilo@mac.com>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: Free
 Encoding: UTF-8
 LazyData: true
