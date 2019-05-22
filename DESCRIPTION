@@ -8,7 +8,7 @@ Description:
     The package offers the following functions:
     - price(symbol): returns the 4 daily prices needed for define candlesticks ("open","high","low","close").
     - hammer(symbol): returns a xts object with 8 columns ("open","high","low","close","isHammer","isInv_Hammer","isBlack","isWhite").
-    The next versions will include more patterns.
+    
 
 License: Free
 Encoding: UTF-8
