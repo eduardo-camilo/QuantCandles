@@ -2,6 +2,7 @@ Hammer <- function(symbol){ #Código do Instrumento, Dias ...
   library(quantmod)
   library(zoo)
   library(xts)
+  library(stats)
   days = 5
   # Carrega dados de um dia
   ResultStock <- na.omit(prices(symbol))
